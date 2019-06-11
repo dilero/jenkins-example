@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('print') {
       steps {
-        sh 'gradle build'
+        echo 'hello, I am working!'
       }
     }
   }
